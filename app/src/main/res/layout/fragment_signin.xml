@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="26dp"
+    tools:context=".ui.auth.signin.SigninFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email_address"
+        style="@style/TextView.PoppinsNormal16sp020202"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_your_email_address"
+        style="@style/EditText.PoppinsNormal14sp8D92A3"
+        android:background="@drawable/shape_rectangle_outline_8_020202"
+        android:padding="10dp"
+        android:layout_marginTop="6dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        style="@style/TextView.PoppinsNormal16sp020202"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_your_password"
+        style="@style/EditText.PoppinsNormal14sp8D92A3"
+        android:background="@drawable/shape_rectangle_outline_8_020202"
+        android:padding="10dp"
+        android:layout_marginTop="6dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        style="@style/Button.Primary"
+        android:layout_marginTop="24dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_new_account"
+        style="@style/Button.Secondary"
+        android:layout_marginTop="12dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
