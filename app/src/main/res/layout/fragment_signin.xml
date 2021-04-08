@@ -44,6 +44,7 @@
         android:inputType="textPassword"/>
 
     <Button
+        android:id="@+id/btn_signin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/sign_in"
@@ -52,6 +53,7 @@
         android:textAllCaps="false"/>
 
     <Button
+        android:id="@+id/btn_signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/create_new_account"
