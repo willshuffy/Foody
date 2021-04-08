@@ -22,5 +22,6 @@
     <string name="type_your_city">Type your city</string>
     <string name="btn_continue">Continue</string>
     <string name="sign_up_now">Sign Up Now</string>
+    <string name="subtitle_toolbar">Find your best ever meal</string>
 
 </resources>
