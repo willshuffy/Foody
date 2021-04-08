@@ -10,6 +10,7 @@ import android.view.View
 import android.view.WindowManager
 import com.umestudio.foody.MainActivity
 import com.umestudio.foody.R
+import com.umestudio.foody.ui.auth.AuthActivity
 
 class SplashActivity : AppCompatActivity() {
 
@@ -20,7 +21,7 @@ class SplashActivity : AppCompatActivity() {
         initStatusBar()
 
         Handler().postDelayed({
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, AuthActivity::class.java))
             finish()
         },3000)
     }
