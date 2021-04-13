@@ -51,6 +51,7 @@ class AuthActivity : AppCompatActivity() {
             }
             "SignUpSuccess"->{
                 setToolbar.visibility =View.GONE
+                setToolbar.setNavigationOnClickListener{finish()}
             }
         }
     }
